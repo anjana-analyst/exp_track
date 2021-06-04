@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+<title>EXPENSE TRACKER</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Times New Roman", sans-serif}
+</style>
+<body class="w3-light-pink">
+<div class="w3-content" style="max-width:1400px">
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><b><center>EXPENSE TRACKER</h1></b></center>
+  <p><center>Manage your expenses with us</p></center>
+</div>
+ 
+ <div class="w3-card-4 w3-margin w3-pink">
+
+    <div class="w3-container">
+      <h2><b>ABOUT OUR PRODUCT</b></h2>
+    </div>
+    <div class="w3-container">
+	<p>Our expense tracker helps you track your financial activity efficiently.</i> Its simple design makes it lightweight, straightforward and very easy to use.
+	  <br>It’s done in one click, because you don’t need to fill anything except the amount.</br> You need just a few SECONDS daily to save the amount and each spending purpose. No matter where you are just a couple of taps will save your expense.
+	  So what are you waiting?     
+    <h4>GET,SET AND GO!!</h4></p>
+</div>
+</div>
+<body>
+ <div class="w3-card-4 w3-margin w3-green">
+<h2>Functions of Our tracker</h2>
+<p>Click on the buttons to know what this product does:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Add income')" id="defaultOpen">Add income</button>
+  <button class="tablinks" onclick="openCity(event, 'Add expenses')">Add expenses</button>
+  <button class="tablinks" onclick="openCity(event, 'Plan future expense')">Plan future expense</button>
+    <button class="tablinks" onclick="openCity(event, 'Get latest news on finance')">Get latest news on finance</button>
+</div>
+
+<div id="Add income" class="tabcontent">
+  <h3>Add income</h3>
+  <p>At the beginning of the month,add your income amount once in our tracker and it will use it to monitor you income and ratio percentage.</p>
+</div>
+
+<div id="Add expenses" class="tabcontent">
+  <h3>Add expenses</h3>
+  <p>You can add all your expenses and allot them in a suitable category,Our tracker will plot them graphically and show how much was spent in each category.</p> 
+</div>
+
+<div id="Plan future expense" class="tabcontent">
+  <h3>Plan future expense</h3>
+  <p>According to the expenses carried out in the month,our tracker will subtract it from your income and tell how much money is remaining to be spent.Accordingly,the user can plan their expense.</p>
+</div>
+<div id="Get latest news on finance" class="tabcontent">
+  <h3>Get latest news on finance</h3>
+  <p>Want to know latest updates on stock market,money and finance? We have a news blog where latest information on budget and money are available in a customised way to the user.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html> 
+<div class="w3-row">
+        <div class="w3-col m8 s12">
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+    <div class="w3-container w3-yellow w3-margin">
+      <h3><b>FEATURES OF TRACKER</b></h3>
+    </div>
+    <div class="w3-container">
+      <p>
+        <ul>
+            <li>
+Easy to Use, Clean and Intuitive Expense & Income Tracker- Intuitive and easy to use user interface. No redundancy Add new records extremely fast.</li>
+            <li>Tracking Expenses and Incomes-Easily record the transaction to track where your money comes and goes.</li>
+            <li>The Whole Picture in One Place-Clear view on your financial life. Better understand where your money comes and goes with visualized reports about income, expense by time and category</li>
+            <li> See your spending distribution on the nice and informative chart or get, view your transactions grouped by categories..</li>
+			<li>Budget and Bill Organizing-Organizing bills weekly, monthly and yearly bills by categories.</li>
+			<li>No Advertising, Without limitation Features, Free-Our expense tracker can be used for free, without ads and no features restriction.</li>
+			</div>
+
+		
+			<div>
+			<div class="w3-card w3-margin w3-margin-right">
+  <div class="w3-container w3-aqua">
+      <h4><b>ABOUT US</b></h4>
+   <p>We are a team of students from Rajalakshmi Engineering College.We are pursuing our second year of engineering in computer science and business systems department.Our main aim is to create a user friendly expense tracker to help students plan their daily expenses and learn to manage money.</p>
+ </div>
+ </div>
+  <div class="w3-card w3-margin w3-margin-right">
+  <div class="w3-container w3-LightGray">
+      <h4><b>CONTACT DETAILS</b></h4>
+   <p>For queries contact: 9876452700</p>
+   <p>You can also write to us at: csbsstudentrec@gmail.com</p>
+   </div>
+   </div>
+   </hr>
+   
